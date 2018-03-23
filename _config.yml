@@ -35,6 +35,9 @@ plugins:
   - jemoji
   - jekyll-github-metadata
 
+compress_html:
+  comments: ["<!-- ", " -->"]
+
 
 collections:
   seminars:

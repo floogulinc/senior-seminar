@@ -1,0 +1,6 @@
+<span>
+{% capture raw-icon %}
+{% include octicons/{{ include.icon }}.svg  %}
+{% endcapture %}
+{{ raw-icon | remove: '<?xml version="1.0" encoding="UTF-8"?>' | remove: '<desc>Created with Sketch.</desc>' | replace_first: '<svg', '<svg class="octicon"'}}
+</span>

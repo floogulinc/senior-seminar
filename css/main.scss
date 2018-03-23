@@ -16,6 +16,12 @@
 //$main-nav-color: #8C1919; //Morris Maroon
 $main-nav-color: $bg-blue;
 
+.octicon {
+  display: inline-block;
+  //vertical-align: text-top;
+  fill: currentColor;
+}
+
 
 .pagination {
     list-style-type: none;
