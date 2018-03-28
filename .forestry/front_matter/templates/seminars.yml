@@ -1,0 +1,99 @@
+---
+pages:
+- _seminars/spring2017/index.md
+- _seminars/spring2016/index.md
+- _seminars/spring2015/index.md
+- _seminars/spring2014/index.md
+- _seminars/spring2012/index.md
+- _seminars/spring2011/index.md
+- _seminars/fall2017/index.md
+- _seminars/fall2016/index.md
+- _seminars/fall2015/index.md
+- _seminars/fall2014/index.md
+- _seminars/fall2013/index.md
+- _seminars/fall2012/index.md
+- _seminars/fall2011/index.md
+- _seminars/fall2010/index.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: year
+  label: Year
+  type: text
+  hidden: false
+  default: ''
+- name: semester
+  label: Semester
+  type: text
+  hidden: false
+  default: ''
+- name: seminar_date
+  label: Seminar date
+  type: datetime
+  hidden: false
+  default: ''
+- name: papers
+  label: Papers
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: author
+    label: Author
+    type: text
+    hidden: false
+    default: ''
+  - name: time
+    label: Time
+    type: datetime
+    hidden: false
+    default: ''
+  - name: pdf
+    label: Pdf
+    type: file
+    hidden: false
+    default: ''
+  - name: slides
+    label: Slides
+    type: file
+    hidden: false
+    default: ''
+  - name: room
+    label: Room
+    type: text
+    hidden: false
+    default: ''
+  - name: tags
+    label: Tags
+    type: tag_list
+    hidden: false
+    default: ''
+  - name: distinctionslides
+    label: Distinctionslides
+    type: boolean
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: seminar
+- name: showtable
+  label: Showtable
+  type: boolean
+  hidden: false
+  default: true
