@@ -1,0 +1,39 @@
+---
+pages:
+- tags.html
+- seminars.html
+- resources.md
+- index.html
+- 404.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: match_collection
+  label: Match collection
+  type: text
+  hidden: false
+  default: ''
+- name: select_link
+  label: Select link
+  type: text
+  hidden: false
+  default: ''
