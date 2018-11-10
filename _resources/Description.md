@@ -3,9 +3,8 @@ title: Description
 order: 2
 ---
 
-# UMM CSci senior seminar description and requirements
-
-## Description.
+# UMM CSci Senior Seminar description and requirements
+{:.no_toc}
 
 This is the senior seminar (CSci 4901) description in the catalog: 
 
@@ -13,20 +12,15 @@ This is the senior seminar (CSci 4901) description in the catalog:
 
 This is both a great opportunity and a great challenge.
 
-It will almost certainly be a lot of work for a one credit course (and perhaps even for two credits - as it is starting Fall 2017) and you should prepare accordingly, but it's totally manageable if you start early, stay organized and focused, and work on it incrementally.
+It will almost certainly be a lot of work for a two credit class and you should prepare accordingly, but it's totally manageable if you start early, stay organized and focused, and work on it incrementally.
 
 A good senior sem experience, however, can really have far reaching consequences. KK's senior sem paper became (in slightly modified form) her first publication in computer science.
 Another alum used her paper as the writing sample that sealed a deal with a publisher to write a book.
 And numerous students have been quite pleasantly surprised with what they were in fact capable of.
 One of the few really consistent themes we get from alumni and employers is the importance of communications skills, both written and oral, and this is a tremendous opportunity to develop these skills in really powerful ways.
 
-<!-- TOC depthFrom:3 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Course goals and learning objectives](#course-goals-and-learning-objectives)
-- [Requirements](#requirements)
-- [Senior Seminar Instructor](#senior-seminar-instructor)
-- [Senior Seminar Advisor](#senior-seminar-advisor)
-- [Texts and Other Materials](#texts-and-other-materials)
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 
 ### Course goals and learning objectives
@@ -59,23 +53,25 @@ Each student works with a faculty advisor on a chosen topic. Your advisor is one
 Usually you meet with your advisor once a week and submit all of your intermediate work (bibliography, drafts, etc) to them, in addition to the course instructor. Your advisor gives you feedback on intermediate drafts and helps you in all aspects of the course, from narrowing down a topic and literature search to practice presentations. Your advisor is the first source of help when you are stuck or have a question. Meeting with your advisor regularly and seeking their help as soon as an issue arises is essential for the success in the course.
 
 ### Texts and other materials
-Your key source of materials will be research literature in the field. We'll talk about how to find things in class, and your advisor can be a big help there as well. There are also some useful links on the [resources page](https://umm-csci.github.io/senior-seminar/resources/seniorsemresources.html).
+Your key source of materials will be research literature in the field. We'll talk about how to find things in class, and your advisor can be a big help there as well. There are also some useful links on the [resources page](seniorsemresources.md).
+
+We will also be reading a textbook on writing in computer science - it has plenty of helpful advice, so please read it carefully and revisit it often as you are working on your papers. 
 
 ### Course work and grading
-Grades in CSci 4901 are determined by the CSci faculty as a whole, usually right after the presentations. Grades will be based on the following:
+Grades in CSci 4901 are determined by the CSci faculty as a whole after the final papers are submitted. Grades will be based on the following:
 
 - Your technical paper
 - Your presentation
 - Your attendance at class meetings
-- Class attendance is an important part of success in the course, and missing 3 class meetings is grounds for failing the course.
 - Your timely deliverance of all intermediate products (outline, bibliography, etc.)
 - Regular meetings with your advisor throughout the semester where you are well-prepared and making progress
+- Addressing any hurdles you encounter (unfamiliar terminology, confusing sources, lack of understanding of what's expected) in a pro-active and timely fashion: seeking assistance from your advisor or your course instructor 
 - Presentation practices scheduled in a timely fashion with your advisor and fellow students
 
 The above items are all important, in slightly different contexts, for almost any career you may choose.
 
 
-Additionally check out [Cookie System](https://umm-csci.github.io/senior-seminar/resources/cookieResources.html) for important grading information.
+Additionally check out [Cookie System](cookieResources.html) for important grading information.
 
 The CSci faculty may choose to acknowledge certain papers or presentations as deserving a distinction (informally known as *Gold Star*) as an indication of their unusually high quality. Getting a gold star corresponds to passing senor seminar with distinction. While this is not formally reflected in the grade, it's a great thing to put on your resume or grad school application.
 
