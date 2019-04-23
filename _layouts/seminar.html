@@ -94,7 +94,8 @@ layout: default
   <tr>
     {% if show_time %}<td class="time-cell">{{ paper.time | date: "%-I:%M %p"}}</td>{% endif %}
     <td>{{ paper.author }}</td>
-    <td><div class="paper-title">{% if paper.pdf %}<a href="{{ pageurl }}{{ paper.pdf }}">{% endif %}{{ paper.title }}{% if paper.pdf %}</a>{% endif %}{% if paper.distinctionpaper %}&#x2B50{% endif %}</div>
+    <td><div class="paper-title">{% if paper.pdf %}<span class="tooltipped tooltipped-n" aria-label="PDF">{% octicon file-pdf %}</span>
+<a href="{{ pageurl }}{{ paper.pdf }}">{% endif %}{{ paper.title }}{% if paper.pdf %}</a>{% endif %}{% if paper.github %} <a href="{{ paper.github }}">{% octicon mark-github  %}</a>{% endif %}{% if paper.distinctionpaper %}&#x2B50{% endif %}</div>
       {% if paper.tags %}
       <div class="paper-tags">
       {% for tag in paper.tags %}

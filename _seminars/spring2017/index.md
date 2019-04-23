@@ -45,6 +45,7 @@ papers:
     room: Sci 3610
     distinctionslides: true
     distinctionpaper: true
+    github: "https://github.com/devshawn/senior-seminar"
 
   - title: Through-Wall Imaging Technology
     author: Travis Mitchell
