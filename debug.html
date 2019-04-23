@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<ul>
+  <li>Repo: <a href="{{ site.github.repository_url }}">{{ site.github.repository_nwo }}</a></li>
+  <li>Source branch: <span class="branch-name">{{site.github.source.branch}}</span> path: <code>{{site.github.source.path}}</code></li>
+  <li>Build: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision }}</a></li>
+  <li>URL: <a href="{{site.github.url}}">{{site.github.url}}</a></li>
+</ul>
+
+
+<div class="col-6 float-left p-4">
+  <h2>GitHub Pages Versions:</h2>
+  <ul>
+    {% for plugin in site.github.versions %}
+    <li>{{ plugin[0] }} {{ plugin[1] }}</li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="col-6 float-left p-4">
+  <h2>Plugins:</h2>
+  <ul>
+    {% for plugin in site.plugins %}
+    <li>{{ plugin }}</li>
+    {% endfor %}
+  </ul>
+</div>
