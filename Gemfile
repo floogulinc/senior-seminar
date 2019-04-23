@@ -17,6 +17,7 @@ gem "github-pages", group: :jekyll_pluginss
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+	gem "jekyll-octicons"
 #   gem "jekyll-readme-index", "~> 0.0.4"
 #   gem "jekyll-relative-links", "~> 0.3.0"
 #   gem "jekyll-optional-front-matter", "~> 0.1.2"

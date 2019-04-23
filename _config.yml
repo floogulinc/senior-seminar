@@ -36,6 +36,7 @@ plugins:
   - jekyll-optional-front-matter
   - jemoji
   - jekyll-github-metadata
+  - jekyll-octicons
 
 relative_links:
   enabled:     true
